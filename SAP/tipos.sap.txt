@@ -1,0 +1,4 @@
+- tipo generico de datos:
+DATA mi_variable1 TYPE ANY
+- tipo generico de tabla: standard, sorted, hash
+DATA mi_variable2 TYPE ANY TABLE

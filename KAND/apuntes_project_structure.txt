@@ -1,0 +1,93 @@
+P R O J E C T O   JAVA + KTS
+AppName
++ app
+		+ libs
+		+ src
+				+ androidTest
+						+ java/com/example/appname
+								- ExampleInstrumentedTest.java
+				+ main
+						+ java/com/example/appname
+								- MainActivity.java
+						+ res
+								+ drawable
+										- ic_launcher_background.xml
+										- ic_launcher_foreground.xml
+								+ layout
+										- activity_main.xml
+								+ mipmap-anydpi-v26
+										- ic_launcher.xml
+										- ic_launcher_round.xml
+								+ mipmap-hdpi
+										- ic_launcher.webp
+										- ic_launcher_round.webp
+								+ mipmap-mdpi
+										- ic_launcher.webp
+										- ic_launcher_round.webp
+								+ mipmap-xhdpi
+										- ic_launcher.webp
+										- ic_launcher_round.webp
+								+ mipmap-xxhdpi
+										- ic_launcher.webp
+										- ic_launcher_round.webp
+								+ mipmap-xxxhdpi
+										- ic_launcher.webp
+										- ic_launcher_round.webp
+								+ values
+										- colors.xml
+										- strings.xml
+										- themes.xml
+								+ values-night
+										- themes.xml
+								+ xml
+										- backup_rules.xml (inecesario)
+										- data_extraction_rules.xml (inecesario)
+						- AndroidManifest.xml
+				+ test
+						+ java/com/example/appname
+								- ExampleUnitTest.java
+		- build.gradle.kts
+		- proguard-rules.pro
+		- .gitignore (+ build)
++ gradle
+		+ wrapper
+				- gradle-wrapper.jar
+				- gradle-wrapper.properties
++ .gradle
+		+ 8.0
+				+ checksums
+						- checksums.lock
+						- md5-checksums.bin
+						- sha1-checksums.bin
+				+ dependencies-accessors
+						- dependencies-accessors.lock
+						- gc.properties
+				+ executionHistory
+						- executionHistory.lock
+				+ fileChanges
+						- last-build.bin
+				+ fileHashes
+						- fileHashes.bin
+						- fileHashes.lock
+						- resourceHashesCache.bin
+				+ vcsMetadata (inecesario)
+				- gc.properties
+		+ buildOutputCleanup
+				- buildOutputCleanup.lock
+				- cache.properties
+				- outputFiles.bin
+		+ vcs-1
+				- gc.properties
++ .idea (generados para intell idea)
+		- compiler.xml
+		- gradle.xml
+		- misc.xml
+		- workspace.xml
+		- .gitignore (/shelf, workspace.xml)
+- build.gradle.kts
+- gradle.properties
+- gradlew (.sh)
+- gradlew.bat
+- local.properties --> sdk.dir=
+- settings.gradle.kts
+- .gitignore

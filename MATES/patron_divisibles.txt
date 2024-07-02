@@ -1,0 +1,53 @@
+
+
+
+numero = 12
+
+division = 12 / 2 = 6
+
+rango(2, 6)
+
+division = 12 / 3 = 4
+
+rango(3,4)
+
+division = 12 / 4 = 3
+
+rango(3,4)
+
+
+
+
+
+numero = 42
+
+division = 42 / 2 = 21
+
+rango(2, 21)
+
+division = 42 / 3 = 14
+
+rango(3,14)
+
+division = 42 / 4 = 10.5
+
+rango(3,14)
+
+division = 42 / 5 = 8.2
+
+rango(3,14)
+
+division = 42 / 6 = 7
+
+rango(6, 7)
+
+
+numero = 961
+
+division = 961 / 31 = 31
+
+rango(31, 31)
+
+
+
+

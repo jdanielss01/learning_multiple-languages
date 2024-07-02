@@ -1,0 +1,4 @@
+#compilar
+kotlinc *.kt -include-runtime -d *.jar
+#executar
+java -jar *.jar

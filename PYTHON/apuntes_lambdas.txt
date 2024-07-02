@@ -1,0 +1,8 @@
+- Se va aplicaando a cada item la funcion y se devuelve los resultados en un objeto
+map (argument -> function, iterable list) --> results_list_object  
+
+map (lambda argument: function, iterable list) --> result
+
+- Se va aplicando la funcion a partir de los dos primers items de la lista, y el 
+  resultado lo aplica con el siguiente elemento
+functools.reduce (lambda a, b: function, iterable_list) 

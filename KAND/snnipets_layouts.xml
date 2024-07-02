@@ -1,0 +1,71 @@
+<!--Tipos de layout-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"	__comment=""
+    xmlns:app="http://schemas.android.com/apk/res-auto"					__comment=""
+    xmlns:tools="http://schemas.android.com/tools"							__comment=""
+    android:layout_width="match_parent"													__comment=""
+    android:layout_height="match_parent"												__comment=""
+tools:context="ActivityProgram">																__comment=""
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<!--Inserta una imagen a una cajon de imagen-->
+<ImageView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:src="@drawable/myimage" />
+
+<!--Atributos mas destacados de un TextView-->
+<TextView
+		android:elegantTextHeigh="true"						__comment="Elegantiza la altura en textos poco compactos"
+		android:fallbackLineSpacing="true"				__comment="habilita la modificacion de la altura de eje intermedio"
+		android:firstBaselineToTopHeight="16sp"		__comment="altura entre el top y el primer baseline. Sobreescribe el paddind"
+		android:fontFamily=""
+		android:lineHeight="dp" 									__comment="espacio entre lineas"/>
+		
+		
+<!--Primera plantilla vista shop zone-->
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--TITULO-->
+    <TextView
+__comment="Propiedades generales"
+        android:id="@+id/shop_zone_title"
+__comment="ubicacion container"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+__comment="medidas contenedor"
+        android:height="100sp"
+__comment="ubicacion texto respecto container"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+
+__comment="Estilos(recursos y medidas)"
+        android:text="SHOP coffe bar tent"
+        android:fontFamily="@font/rubik_mono_one_regular"
+        android:textSize="40sp"
+        android:firstBaselineToTopHeight="-60dp"/>
+<!--BUSCADOR-->
+<EditText
+    android:id="@+id/search_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems=""
+    android:inputType="text"
+
+    android:background="@android:color/transparent"
+    android:hint="@string/search_hint"
+    android:imeOptions="actionSearch"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />

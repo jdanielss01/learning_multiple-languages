@@ -1,0 +1,4 @@
+Convecion de nombres
+button id -> btn
+textView id -> tv
+

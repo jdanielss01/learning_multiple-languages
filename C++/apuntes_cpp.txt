@@ -1,0 +1,3 @@
+library: io.stream --- entrada salida de datos
+namespace: std
+main function: 

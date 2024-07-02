@@ -1,0 +1,2 @@
+- serializacion de yaml:
+		yaml.safe_load(text_object)
