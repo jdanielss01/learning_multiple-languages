@@ -1,0 +1,41 @@
+<?
+//comentario
+echo "hola mundo";
+//Estas siguientes variables se consideran variables globales, es decir,  utilizables en todos lso scopes
+$mivariable1 = "cadena";
+$mivariable2 = 1;
+$mivariable3 = 1.1;
+$mivariable4 = true;
+$mv5 = null;
+//Puedo mostrar texto junto a variables de dos maneras
+//Uno. con la variable dentro de la cadena
+echo "Esta es una $mivariable1";
+//Dos. con la variable concatenada con un punto a el resto del texto
+echo "Esta es una " . $mivariable1;
+//Se usa la segunda manera para concatenar contenido HTML con variables.
+//Si se desea usar una cadena directa, se puede utizar la declaracion print
+print "<p>Esta es una cadena para HTML</p>";
+
+function MiFuncion() 
+    {
+    //Esta siguiente variable dentro de una funcion se considera una varible local
+    $MiVariableLocal = "adios";
+    echo "Funcion 1 ejecutada";
+    echo "se muestra una variable $MiVariableLocal";
+    }
+?>
+
+//OTROS TIPOS DE DATOS se pueden generar apartir de funciones predefinidas
+$v1 = array("string", 1, 1.1);
+
+
+//FUNCIONES PRE-BUILT
+//--La letra x significa cualquier tipo de dato
+//-- Para mostrarse en una pagina web, hara falta usar echho o print
+//1 - devuelve texto indicado el tipo de dato de x
+var_dump(1);
+//2 - devuelve la longitud de una cadena
+strlen(x)
+
+
+
