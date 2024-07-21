@@ -1,0 +1,25 @@
+SOBRE LOS MODIFICADORES
+
+
+* Modificadores de acceso
+    - package-private(por defecto) [APLICACION EN CLASES, ATRIBUTOS, CONSTRUCTORES, METODOS]:
+        Es un modificador sin palabra clave que se aplica si no se especifica uno de los modificadores con palabra clave
+    - public [APLICACION EN CLASES, ATRIBUTOS, CONSTRUCORES, METODOS]:
+        Permite el accseso desde cualquier sitio (fuera del paquete, dentro del paquete, fuera de la clase/subclase, dentro de la clase/subclase)
+    - private [APLICABLE EN ATRIBUTOS, METODOS]:
+        Permite el acceso entre miembros de una clase, sin incluir a las subclases
+    - protected [APLICABLE EN ATRIBUTOS, METODOS]:
+        Permite el acceso entre miembros de una clase, incluyendo a las subclases y al paquete de la clase con herencia?
+        
+* Modificadores de comportamiento
+    - no-static(por defecto) [ATRIBUTOS,CONSTRUCTORES, METODOS]
+        Si no se especifica el modificador "static" se aplica esta caracteristica que permite modificar las variables en varias instancias de la clase, sin que afecte el cambio en una de ellas a las otras.
+        Lo mismo en los metodos, que permiten utilizar atributos de varias instancias sin que estos cambien. Si se desde un metodo se utiliza un atributo de la misma clase, se usa la instancia creada por defecto
+        this.
+    - static [ATRIBUTOS Y MEOTODOS]: Evita el uso de instancias y afecta a todos aquellos elementos que utilizen el atributo o metodo. Se declara con el nombre de la clase.elemento
+
+* Modificadores de tipo de retorno [solo para metodos]
+    - void: Si no se quiere devolver nada, SIEMPRE SE DEBE DE USAR
+    - tipo de dato: Se especifica el tipo de dato que retorna el metodo como char, boolean, int, String, ...
+    
+* Modificadores de otro proposito
