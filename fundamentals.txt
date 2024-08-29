@@ -1,0 +1,34 @@
+--------- VARIABLES
+- data types
+    number: numeric data type
+    string: text data type
+    date: date data type
+    boolean: logic data type
+
+- strongly typed vs dinamically typed
+
+- commom primitive data type variables
+    ** numeric data types **
+    (integers)
+    short: 2B
+    int: 4B
+    long: 8B
+    (floating-point numbers)
+    float: 4B
+    double: 8B
+    ** numeric data types **
+
+- commom non-primitive data type variables (differs in some languages)
+    - list / array
+    - tuples
+    - collections
+    - dictionaries / map
+
+--------- FLOW CONTROL STRUCTURES
+- paradigm concepts
+- secuencial: line to line
+- selection/descision: if, if-elif, if-else, switch-case
+- iteration: for, while
+
+--------- SYSTEM-ORIENTED CONCEPTS
+--------- OBJECT-ORIENTED CONCEPTS
